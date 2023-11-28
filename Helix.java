@@ -96,7 +96,7 @@ public class Helix{
 
 
     public static int newPos(int lastDirection, int[] coordinates) {
-        final int step = 10*2; // Movement step size
+        final int step = 10; // Movement step size
         // Assuming the square's bounds are known and fixed:
         final int leftBound = 100;
         final int rightBound = 300;
